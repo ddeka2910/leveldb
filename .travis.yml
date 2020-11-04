@@ -6,6 +6,11 @@ language: java
 
 dist: trusty
 
+addons:
+  apt:
+    packages:
+      - maven
+      
 jdk:
   - oraclejdk8
   - oraclejdk9
